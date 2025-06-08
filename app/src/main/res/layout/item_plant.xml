@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    android:layout_marginTop="12dp"
-    android:layout_marginBottom="12dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
     app:cardCornerRadius="12dp"
     app:cardElevation="8dp"
     app:cardUseCompatPadding="true"
@@ -16,22 +16,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_margin="0dp"
         android:orientation="horizontal"
         android:padding="16dp"
         android:gravity="center_vertical"
-        android:background="#FFFFFF"
-        android:clipChildren="false"
-        android:clipToPadding="false">
+        android:background="#FFFFFF">
 
         <!-- Plant Image Container -->
         <androidx.cardview.widget.CardView
             android:layout_width="80dp"
             android:layout_height="160dp"
             app:cardCornerRadius="12dp"
-            app:cardElevation="6dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true"
             android:layout_marginRight="16dp"
             android:layout_marginTop="-50dp"
             android:layout_marginBottom="-50dp">
