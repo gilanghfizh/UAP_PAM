@@ -41,7 +41,14 @@ dependencies {
     implementation ("com.google.android.libraries.identity.googleid:googleid:1.1.1")
     implementation ("com.google.android.gms:play-services-auth:20.7.0")
 
+    implementation ("androidx.recyclerview:recyclerview:1.3.0")
+    implementation ("androidx.cardview:cardview:1.0.0")
 
+    // Volley untuk HTTP requests
+    implementation ("com.android.volley:volley:1.2.1")
+
+    // Optional: Gson untuk JSON parsing yang lebih mudah
+    implementation ("com.google.code.gson:gson:2.10.1")
 
     implementation(libs.appcompat)
     implementation(libs.material)
